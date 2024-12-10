@@ -37,32 +37,32 @@ app.get("/aboutus", (req, res) => {
 });
 
 app.get("/Coursepage", (req, res) => {
-  res.sendFile(path.join(__dirname, "front-end", "Moderator/coursePageModerator.html")); //////////////
+  res.sendFile(path.join(__dirname, "front-end", "Moderator/coursePageModerator.html"));/////////////
 });
 
-app.get("/adminhome", (req, res) => {//////////////
+app.get("/adminhome", (req, res) => {
   res.sendFile(path.join(__dirname, "front-end", "admin/homePageAdmin.html"));
 });
 
-app.get("/adminaboutus", (req, res) => {//////////////////
+app.get("/adminaboutus", (req, res) => {
   res.sendFile(path.join(__dirname, "front-end", "admin/aboutUsAdmin.html"));
 });
 
-app.get("/adminCoursepage", (req, res) => {/////////////////
+app.get("/adminCoursepage", (req, res) => {
   res.sendFile(path.join(__dirname, "front-end", "admin/coursePageAdmin.html"));
 });
 
 
-app.get("/supperadminhome", (req, res) => {//////////////////
+app.get("/supperadminhome", (req, res) => {
   res.sendFile(path.join(__dirname, "front-end", "Moderator/homePageModerator.html"));
 });
 
-app.get("/superadminaboutus", (req, res) => {////////////////
+app.get("/superadminaboutus", (req, res) => {
   res.sendFile(path.join(__dirname, "front-end", "Moderator/aboutUsModerator.html"));
 });
 
-app.get("/superadminCoursepage", (req, res) => {//////////////////
-  res.sendFile(path.join(__dirname, "front-end", "Moderator/coursePageModerator.html"));
+app.get("/superadminCoursepage", (req, res) => {
+  res.sendFile(path.join(__dirname, "front-end", "admin/coursePageAdmin.html"));/////////////
 });
 
 
